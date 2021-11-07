@@ -4,6 +4,10 @@
     margin: 0 auto;
 }
 
+#header{
+    height: 100px;
+}
+
 #brand{
     float: left;
 }
@@ -16,5 +20,17 @@ h1 a{
 }
 
 #searchbox{
+    float: right;
+    background: linear-gradient(#E4F2B9,#B7E953);
+    width: 400px;
+    height: 50px;
+}
+
+.text{
+    float: left;
+    width: 200px;
+}
+
+.submit{
     float: right;
 }
