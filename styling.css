@@ -1,6 +1,6 @@
 #container{
     width: 1050px;
-    border: 1px solid grey;
+ /* border: 1px solid grey; */
     margin: 0 auto;
 }
 
@@ -87,5 +87,35 @@ list-style: none;
     color: #B314DB;
 }
 
+#introduction{
+    background: linear-gradient(#E5F2BB,#B7E952);
+    padding: 30px;
+    margin:15px 0px;
+}
 
+#introduction h3{
+    font-size: 45px;
+    font-weight: normal;
+}
+
+#introduction p{
+    font-size: 25px;
+    text-align: justify;
+}
+
+.sidebar{
+    width: 500px;
+    height: 400px;
+    border: 1px solid #BAF46F;
+    border-radius: 10px;
+}
+   
+#leftsidebar{
+    float: left;
+
+}
+
+#rightsidebar{
+    float: right;
+}
 
